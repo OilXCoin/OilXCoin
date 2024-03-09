@@ -1,33 +1,66 @@
-                                                                                                                          
-                                                                                                                            
-                   .#      @                                                                                                
-                  .@@@    @@@.                                                                                              
-                 %@@@@@ =@% =@#                                                                                             
-                @@@@@@@@@     @@                                                                                            
-               @@@@@@@@@   =.  @@                                                                                           
-              @@@@@@@@@  .###   @@          *@@@@:   -@@. @@=   .##*   @@@    @@@@@      #@@@@.   #@@  @@@    @@            
-            .@@@@@@@@@  .#####   @@       @@@@=#@@@. -@@  @@=     ###.@@@   @@@@*@@@@  @@@@=#@@@  #@@  @@@@   @@            
-            @@@@@@@@@   #######   @@     :@@     %@@ -@@  @@=      ### @   @@@        =@@     @@@ #@@  @@@@@  @@            
-            @@@@@@@@@  #########  %@     +@@     =@@ -@@  @@=      *###.   @@@        #@@     @@@ #@@  @@ :@@.@@            
-            @@@@@@@@@  #########  #@      @@@.  #@@@ -@@  @@+    .###-##+  .@@@   @@@  @@@   %@@* #@@  @@   @@@@            
-            @@@@@@@@@  .#######. .@@       .@@@@@@   -@@  @@@@@@.###  .###.  @@@@@@%    =@@@@@@   #@@  @@   .@@@            
-             @@@@@@@@@:         .@@.                                                                                        
-              =@@@@@@@@@@     @@@.                                                                                          
-                 :@@@@%..@@@@@.                                                                                             
-         
+## Foundry
 
-# OilX Smart Contracts
+**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-This repo contains OilXCoin Smart Contracts
+Foundry consists of:
 
+-   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+-   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
+-   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
+-   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
+## Documentation
 
-## Addresses
+https://book.getfoundry.sh/
 
-NFT Contract Address: 0x477f9a351db33a913bf0ba22c4e9a7051bed5e15	nft.oilxcoin.eth
+## Usage
 
+### Build
 
-## Disclaimer
+```shell
+$ forge build
+```
 
-Due diligence is imperative prior to executing any NFT transactions. Ensure that all wallet and smart contract addresses are correct. More information can be found under https://oilxcoin.io/. DeXentra GmbH does not assume any liability for imitations or errors made in the transaction process.
+### Test
 
+```shell
+$ forge test
+```
+
+### Format
+
+```shell
+$ forge fmt
+```
+
+### Gas Snapshots
+
+```shell
+$ forge snapshot
+```
+
+### Anvil
+
+```shell
+$ anvil
+```
+
+### Deploy
+
+```shell
+$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+```
+
+### Cast
+
+```shell
+$ cast <subcommand>
+```
+
+### Help
+
+```shell
+$ forge --help
+$ anvil --help
+$ cast --help
+```
