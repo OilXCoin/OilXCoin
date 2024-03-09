@@ -24,7 +24,7 @@ This repo contains OilXCoin Smart Contracts
 
 ## Addresses
 
-NFT Contract Address: 0x477f9a351db33a913bf0ba22c4e9a7051bed5e15	nft.oilxcoin.eth
+NFT Contract Address: 0x477f9a351db33a913bf0ba22c4e9a7051bed5e15	[nft.oilxcoin.eth] (https://etherscan.io/address/nft.oilxcoin.eth)
 
 
 ## Disclaimer
