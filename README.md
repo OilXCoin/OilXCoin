@@ -18,7 +18,7 @@
 
 # OilX Smart Contracts
 
-This repo contains OilXCoin Smart Contracts
+This repository contains OilXCoin Smart Contracts
 
 
 
