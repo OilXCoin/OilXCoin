@@ -25,7 +25,7 @@ In time for the ICO phase, the smart contracts for our ERC-20 token, OilXCoin (s
 
 Please note that our ERC-20 token has not yet been deployed. The official launch on the Ethereum blockchain will be announced through our official channels.
 
-The NFT contract available in this repository is part of our limited restriced private sale.
+The NFT contract available in this repository is part of our limited, restricted private sale.
 
 
 ## Addresses
