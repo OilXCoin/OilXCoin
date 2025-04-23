@@ -46,7 +46,13 @@ Due diligence is imperative prior to executing any NFT transactions. Ensure that
 
 **OilXCoin ERC-20 Contract Addresses**
 
-...coming soon...
+**OilXCoin Contract Address:** `0xc269dcA99Fa95C0E67303efF60EFEc6a3643F8d2` [oilxcoin.eth on Etherscan](https://etherscan.io/address/oilxcoin.eth#code) | [Token Tracker](https://etherscan.io/token/0xc269dcA99Fa95C0E67303efF60EFEc6a3643F8d2)  
+**ICOSales Contract Address:** `0x89162D2923E80d6552188373B07A8423e642B822` [Salescontract](https://etherscan.io/address/0x89162D2923E80d6552188373B07A8423e642B822#code) for ICO Sale visit https://oilxcoin.io  
+**Vesting Contract Address:** `0x5bB5bBa3Ac3Fdf204E51d4F6923B4588B3Eb57c6` [Vestingcontract](https://etherscan.io/address/0x89162D2923E80d6552188373B07A8423e642B822#code)  
+  
+All contracts are verified on Etherscan. Source codes, checksums, and the security audit report will be made available here soon.  
+
+**OilXCoin is currently only available on the Ethereum mainnet.**
 
 ---
 
@@ -56,8 +62,9 @@ Due diligence is imperative prior to executing any NFT transactions. Ensure that
 🐦 [Twitter](https://twitter.com/OilXCoin)  
 💬 [Telegram](https://t.me/oilxcoin)  
 💼 [LinkedIn](https://www.linkedin.com/company/oilxcoin/)  
+📘 [Whitepaper (GitBook)](https://dexentra.gitbook.io/oilxcoin.io-whitepaper)  
+🔐 [Security Audit (CertiK)](https://skynet.certik.com/projects/oilxcoin)  
 📊 [CoinMarketCap](https://coinmarketcap.com/currencies/oilxcoin/)  
-📘 [Whitepaper (GitBook)](https://dexentra.gitbook.io/oilxcoin.io-whitepaper)
 
 
 
