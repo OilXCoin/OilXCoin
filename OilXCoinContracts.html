@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>OilXCoin Smart Contract</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .contract {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .contract-name {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .address {
+      font-family: monospace;
+      font-size: 0.95em;
+      margin-bottom: 10px;
+    }
+    .buttons a {
+      display: inline-block;
+      margin-right: 10px;
+      margin-top: 8px;
+      padding: 10px 15px;
+      text-decoration: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 6px;
+      font-size: 0.9em;
+      transition: background-color 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #45a049;
+    }
+
+    .add-token {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+  </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@6.7.0/dist/ethers.umd.min.js"></script>
+
+    <script>
+        async function addOilXCoin() {
+          if (typeof window.ethereum === 'undefined') {
+            alert('no wallet found');
+            return;
+          }
+    
+          try {
+            const provider = new ethers.BrowserProvider(window.ethereum);
+            const signer = await provider.getSigner();
+    
+            const wasAdded = await window.ethereum.request({
+              method: 'wallet_watchAsset',
+              params: {
+                type: 'ERC20',
+                options: {
+                  address: '0xc269dcA99Fa95C0E67303efF60EFEc6a3643F8d2', // Dein Token
+                  symbol: 'OXC',  // Dein Token-Symbol
+                  decimals: 18,   // Typisch für ERC20
+                  image: 'https://oilxcoin.io/assets/img/public/drops-200x200.jpg', // Optional: Dein Logo-Link
+                },
+              },
+            });
+    
+            if (wasAdded) {
+              alert('Token added successful');
+            } else {
+              alert('Token not added by cancel');
+            }
+          } catch (error) {
+            console.error('Error:', error);
+            alert('Error occurred. See console.');
+          }
+        }
+
+        async function addVestedInformation() {
+          if (typeof window.ethereum === 'undefined') {
+            alert('no wallet found');
+            return;
+          }
+    
+          try {
+            const provider = new ethers.BrowserProvider(window.ethereum);
+            const signer = await provider.getSigner();
+    
+            const wasAdded = await window.ethereum.request({
+              method: 'wallet_watchAsset',
+              params: {
+                type: 'ERC20',
+                options: {
+                  address: '0x5bB5bBa3Ac3Fdf204E51d4F6923B4588B3Eb57c6', // Dein Token
+                  symbol: 'vOXC',  // Dein Token-Symbol
+                  decimals: 18,   // Typisch für ERC20
+                  //image: 'https://oilxcoin.io/assets/img/public/drops-200x200.jpg', // Optional: Dein Logo-Link
+                },
+              },
+            });
+    
+            if (wasAdded) {
+              alert('Token added successful');
+            } else {
+              alert('Token not added by cancel');
+            }
+          } catch (error) {
+            console.error('Error:', error);
+            alert('Error occurred. See console.');
+          }
+        }
+    </script>
+
+</head>
+<body>
+
+  <h1><img src="https://oilxcoin.io/assets/img/drops.svg" width="32px;" valign="left"> OilXCoin Smart Contracts</h1>
+
+  <div class="contract">
+    <div class="contract-name">OilXCoin ERC-20 Token Contract</div>
+    <div class="address">0xc269dcA99Fa95C0E67303efF60EFEc6a3643F8d2 (oilxcoin.eth)</div>
+    <div class="buttons">
+      <a href="https://etherscan.io/address/oilxcoin.eth" target="_blank">Etherscan</a>
+      <a href="https://eth.blockscout.com/address/0xc269dcA99Fa95C0E67303efF60EFEc6a3643F8d2" target="_blank">Blockscout</a>
+      <a href="#" onclick="addOilXCoin();">add OilXCoin to Wallet</a>
+    </div>
+  </div>
+
+  <div class="contract">
+    <div class="contract-name">OilXCoin NFT Contract</div>
+    <div class="address">0x477f9a351db33a913bF0ba22c4e9a7051Bed5e15 (nft.oilxcoin.eth)</div>
+    <div class="buttons">
+      <a href="https://etherscan.io/address/nft.oilxcoin.eth" target="_blank">Etherscan</a>
+      <a href="https://eth.blockscout.com/address/0x477f9a351db33a913bF0ba22c4e9a7051Bed5e15" target="_blank">Blockscout</a>
+      <a href="https://etherscan.io/token/0x477f9a351db33a913bF0ba22c4e9a7051Bed5e15#inventory2" target="_blank">Inventory</a>
+    </div>
+  </div>
+
+
+  <div class="contract">
+    <div class="contract-name">Vesting Contract</div>
+    <div class="address">0x5bB5bBa3Ac3Fdf204E51d4F6923B4588B3Eb57c6</div>
+    <div class="buttons">
+      <a href="https://etherscan.io/address/0x5bB5bBa3Ac3Fdf204E51d4F6923B4588B3Eb57c6" target="_blank">Etherscan</a>
+      <a href="https://eth.blockscout.com/address/0x5bB5bBa3Ac3Fdf204E51d4F6923B4588B3Eb57c6" target="_blank">Blockscout</a>  
+      <a href="#" onclick="addVestedInformation();">add Vesting Contract to Wallet</a>    
+    </div>
+  </div>
+
+
+  <div class="contract">
+    <div class="contract-name">ICO Sales Contract</div>
+    <div class="address">0x89162D2923E80d6552188373B07A8423e642B822</div>
+    <div class="buttons">
+      <a href="https://etherscan.io/address/0x89162D2923E80d6552188373B07A8423e642B822" target="_blank">Etherscan</a>
+      <a href="https://eth.blockscout.com/address/0x89162D2923E80d6552188373B07A8423e642B822" target="_blank">Blockscout</a>
+    </div>
+  </div>
+
+</body>
+</html>
