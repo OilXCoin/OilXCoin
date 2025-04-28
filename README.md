@@ -19,6 +19,10 @@
 
 
 # OilXCoin Smart Contracts
+  
+**The OilXCoin Security Token Offering (STO) has officially launched and can be purchased exclusively through our official [website](https://oilxcoin.io/)**   
+
+---
 
 **OilXCoin STO (ICO for security tokens) to commence on April 23 2025.**
 
