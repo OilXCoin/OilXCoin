@@ -1,0 +1,27 @@
+# Dotenv file
+.env
+
+# Compiler files
+cache/
+out/
+
+# Libaries and Binaries
+bin/
+
+#Deploy
+broadcast/
+
+# Ignores development broadcast logs
+.github/
+
+# Docs
+docs/
+
+# Ignores all files in this directory
+ignore/ 
+
+# Apple
+.DS_Store
+
+# Coverage reports
+lcov.info
