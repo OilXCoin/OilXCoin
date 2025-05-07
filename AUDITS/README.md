@@ -24,7 +24,7 @@
 🔐 **Security Audits**
 
 * Audit dated Apr 8, 2025 (published on https://skynet.certik.com/projects/oilxcoin as _OilXCoin_)
-* Audit dated May 1, 2025 (published on https://skynet.certik.com/projects/oilxcoin as _April Audit_)
+* Audit dated May 1, 2025 (published on https://skynet.certik.com/projects/oilxcoin as _ICO Audit_)
 
 
 🔢 **Audited Smart Contract Checksums**

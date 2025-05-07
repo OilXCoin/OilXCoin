@@ -54,7 +54,7 @@ Due diligence is imperative prior to executing any NFT transactions. Ensure that
 **ICOSales Contract Address:** `0x89162D2923E80d6552188373B07A8423e642B822` [Salescontract](https://etherscan.io/address/0x89162D2923E80d6552188373B07A8423e642B822#code) for ICO Sale visit https://oilxcoin.io  
 **Vesting Contract Address:** `0x5bB5bBa3Ac3Fdf204E51d4F6923B4588B3Eb57c6` [Vestingcontract](https://etherscan.io/address/0x89162D2923E80d6552188373B07A8423e642B822#code)  
   
-All contracts are verified on Etherscan. Source codes, checksums, and the security audit report will be made available here soon.  
+All smart contracts have been verified on Etherscan. The full source code, associated checksums, and the security audit report are provided in this repository.
 
 **OilXCoin is currently only available on the Ethereum mainnet.**
 
