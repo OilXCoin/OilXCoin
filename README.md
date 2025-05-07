@@ -28,14 +28,13 @@
 
 We are proud to announce that the Financial Market Authority (FMA) in Liechtenstein has approval for our security prospectus. The smart contracts for the OilXCoin (OXC) smart contracts will be made available here.
 
-Please note that the OXC token (ERC-20) has not yet been deployed. The official launch on the Ethereum blockchain will be announced through our official channels.
 
 ##### Disclaimer 
 An offer to acquire tokens in connection with the securities token offering (STO) will be made only to (i) persons in the United States who are verified as accredited investors under Rule 506(c) of Regulation D, and (ii) residents of jurisdictions in which such offer and sale are permitted under applicable law and where the issuer has satisfied applicable registration, licensing, or exemption requirements. The eligible jurisdictions include: Austria, Belgium, Cyprus, Czech Republic, Denmark, France, Germany, Hungary, Ireland, Italy, Liechtenstein, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Spain, Sweden and Switzerland. Any person who is not a resident of one of these jurisdictions or who does not meet the applicable eligibility criteria will not be eligible to receive or accept an offer to acquire tokens.
 
 The prospectus and all further legal documentation must be reviewed under  https://oilxcoin.io before acquiring any OXC tokens.
 
-**The repository containing the audited OilXCoin smart contracts will be made public shortly.**
+ℹ️ **The audited OilXCoin repository is available at [github.com/OilXCoin/OilXCoin](https://github.com/OilXCoin/OilXCoin).**
 
 ---
 
